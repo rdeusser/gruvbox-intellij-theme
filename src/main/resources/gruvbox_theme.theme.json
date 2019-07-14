@@ -1,0 +1,127 @@
+{
+  "name": "glacier-theme",
+  "dark": true,
+  "author": "Vincent Parizet",
+  "editorScheme": "/gruvbox_theme.xml",
+  "ui": {
+    "*": {
+      "background": "#0C151B",
+      "foreground": "#FEFFFF",
+
+      "infoForeground": "#ebdbb2",
+
+      "lightSelectionBackground": "#3c3836",
+      "selectionBackground": "#4F4945",
+      "selectionForeground": "#FEFFFF",
+      "selectionInactiveBackground": "#3c3836",
+      "selectionBackgroundInactive": "#3c3836",
+
+      "selectedBackground": "#1d2021",
+      "selectedForeground": "#FEFFFF",
+      "selectedInactiveBackground": "#3c3836",
+      "selectedBackgroundInactive": "#3c3836",
+
+      "hoverBackground": "#0C151B",
+
+      "borderColor": "#3c3836",
+      "disabledBorderColor": "#1d2021",
+
+      "separatorColor": "#3c3836"
+    },
+    "ActionButton": {
+      "hoverBackground": "#504945"
+    },
+    "Button": {
+      "startBackground": "#0C151B",
+      "endBackground": "#0C151B",
+      "startBorderColor": "#504945",
+      "endBorderColor": "#504945",
+
+      "default": {
+        "foreground": "#FEFFFF",
+        "startBackground": "#32302F",
+        "endBackground": "#32302F",
+        "startBorderColor": "#4F4945",
+        "endBorderColor": "#4F4945",
+        "focusedBorderColor": "#0C151B"
+      }
+    },
+    "ComboBox": {
+      "nonEditableBackground": "#0C151B",
+      "ArrowButton": {
+        "iconColor": "#FEFFFF",
+        "disabledIconColor": "#FEFFFF",
+        "nonEditableBackground": "#0C151B"
+      }
+    },
+    "EditorTabs": {
+      "selectedBackground": "#3c3836",
+      "underlineColor": "#83a598",
+      "inactiveMaskColor": "#0C151B"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "#3c3836",
+        "inactiveBackground": "#0C151B"
+      },
+
+      "HeaderTab": {
+        "selectedInactiveBackground": "#1d2021",
+        "hoverInactiveBackground": "#1d2021"
+      }
+    },
+    "Table": {
+      "stripeColor": "#3c3836",
+      "lightSelectionForeground": "#FEFFFF",
+      "lightSelectionInactiveForeground":"#a89984",
+      "lightSelectionBackground": "#504945",
+      "lightSelectionInactiveBackground":"#0C151B"
+    },
+    "FileColor": {
+      "Yellow": "#fabd2f44",
+      "Green": "#b8bb2644",
+      "Blue": "#83a59844",
+      "Violet": "#d3869b22",
+      "Orange": "#fe801988",
+      "Rose": "#cc241d44"
+    },
+    "Link": {
+      "activeForeground": "#83a598",
+      "hoverForeground": "#83a598",
+      "pressedForeground": "#83a598",
+      "visitedForeground": "#83a598"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Grey": "#928374",
+      "Actions.Red": "#fb4934",
+      "Actions.Yellow": "#fabd2f",
+      "Actions.Green": "#98971a",
+      "Actions.Blue": "#458588",
+      "Actions.GreyInline.Dark": "#FEFFFF",
+
+      "Objects.Grey": "#928374FF",
+      "Objects.RedStatus": "#fb4934FF",
+      "Objects.Red": "#fb4934FF",
+      "Objects.Pink": "#d3869bFF",
+      "Objects.Yellow": "#fabd2fFF",
+      "Objects.Green": "#98971aFF",
+      "Objects.Blue": "#458588FF",
+      "Objects.Purple": "#b16286FF",
+      "Objects.BlackText": "#000000FF",
+      "Objects.YellowDark": "#d79921FF",
+      "Objects.GreenAndroid": "#b8bb26FF",
+
+      "Checkbox.Background.Default.Dark": "#0C151B",
+      "Checkbox.Border.Default.Dark": "#FEFFFF",
+      "Checkbox.Foreground.Selected.Dark": "#FEFFFF",
+      "Checkbox.Focus.Wide.Dark": "#458588",
+      "Checkbox.Focus.Thin.Default.Dark": "#458588",
+      "Checkbox.Focus.Thin.Selected.Dark": "#458588",
+      "Checkbox.Background.Disabled.Dark": "#0C151B",
+      "Checkbox.Border.Disabled.Dark": "#a89984",
+      "Checkbox.Foreground.Disabled.Dark": "#a89984"
+    }
+  }
+}
